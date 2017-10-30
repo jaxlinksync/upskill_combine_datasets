@@ -33,4 +33,4 @@ if __name__ == '__main__':
                 raise IOError("Arguments must not be greater to %d" % 2)
         wav_files = arguments[0]
         txt_files = arguments[1]
-        combine_dirs(wav_files)
+        combine_dirs(wav_files, txt_files)
